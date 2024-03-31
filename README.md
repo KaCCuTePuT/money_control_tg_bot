@@ -1,6 +1,6 @@
 # Money_control_tg_bot
 
-![GitHub](https://img.shields.io/github/license/vital-yano/money_control_fastapi_backend) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/kaccuteput/money_control_tg_bot)
+![GitHub](https://img.shields.io/github/license/vital-yano/money_control_fastapi_backend) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/vital-yano/money_control_tg_bot)
 
 ### Описание
 Репозиторий содержит телеграмм бот для контроля своих расходов. 
@@ -19,6 +19,13 @@ Redis поднимается в Docker.
 Установка виртуального окружения и зависимостей:
 ```bash
 python -m venv venv && source venv/bin/activate && pip install -r req.txt
+```
+
+Проверка с помощью Ruff и Pyright
+
+```bash
+ruff check
+pyright
 ```
 
 Запуск контейнера redis:
